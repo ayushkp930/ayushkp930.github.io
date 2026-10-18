@@ -1,7 +1,339 @@
 {
   "username": "Kshatantra",
-  "updated_at": null,
-  "source": "TryHackMe public badge records; unofficial endpoint",
-  "status": "not_synced",
-  "badges": []
+  "updated_at": "2026-10-18T10:23:34Z",
+  "source": "TryHackMe public badges endpoint (observed/unofficial; schema may change)",
+  "status": "synced",
+  "count": 55,
+  "badges": [
+    {
+      "name": "terminaled",
+      "image": "https://cdn-images.tryhackme.com/77367d811451b55fccd8cee0f2df2bb5.png",
+      "earned_at": "2025-06-16T13:14:00.907Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "hash-cracker",
+      "image": "https://cdn-images.tryhackme.com/43d2b5d51db42ff0564a26150a8b8645.png",
+      "earned_at": "2025-08-09T05:00:46.397Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "aoc5sidequest1",
+      "image": "https://cdn-images.tryhackme.com/dc375c0871c6c76fccf98eb2d800d74d.png",
+      "earned_at": "2025-08-12T06:15:49.047Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "aoc5sidequest2",
+      "image": "https://cdn-images.tryhackme.com/cda75a447873de597d1ea11e44d0cdbf.png",
+      "earned_at": "2025-12-08T07:48:09.796Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "defrostedfive",
+      "image": "https://cdn-images.tryhackme.com/3216601a73ba1663be6bc40f89552cd6.png",
+      "earned_at": "2025-12-09T07:03:41.000Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "30-day-streak",
+      "image": "https://cdn-images.tryhackme.com/80db054d0c1fc2516be1b735756a7d05.png",
+      "earned_at": "2025-12-30T16:54:31.295Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "advent-of-cyber-2025",
+      "image": "https://cdn-images.tryhackme.com/ff19c984432a4c39ff1bda8bf8390f0d.png",
+      "earned_at": "2026-01-18T06:20:04.781Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "adversarial-defence-ops",
+      "image": "https://cdn-images.tryhackme.com/8115890d96e996d37d80d775d734d3fb.png",
+      "earned_at": "2026-04-20T07:31:39.002Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "network-fundamentals",
+      "image": "https://cdn-images.tryhackme.com/16b8fe9cf4cd6a0e6f9c8d3aadb94500.png",
+      "earned_at": "2026-04-20T12:25:19.728Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "silver-league",
+      "image": "https://cdn-images.tryhackme.com/a9266d3fc9f867538d38d95ff7807498.png",
+      "earned_at": "2026-04-26T23:50:15.463Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "metasploitable",
+      "image": "https://cdn-images.tryhackme.com/d8beb25da863a6bd2c610190fdb157af.png",
+      "earned_at": "2026-04-29T13:10:32.265Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "blue",
+      "image": "https://cdn-images.tryhackme.com/cd01036f776a5cb52af2eb28c85fb0ab.png",
+      "earned_at": "2026-04-30T08:21:26.151Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "first-step-into-soc",
+      "image": "https://cdn-images.tryhackme.com/ae236ab044c11b3077f229c379837afd.png",
+      "earned_at": "2026-04-30T16:41:49.732Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "soc-apprentice",
+      "image": "https://cdn-images.tryhackme.com/85ccdd82a089cc1dcf73923dabbdb6a3.png",
+      "earned_at": "2026-05-01T10:00:06.535Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "soc-sim-first-scenario-completed",
+      "image": "https://cdn-images.tryhackme.com/9d339723af22e311626750485558375d.png",
+      "earned_at": "2026-05-01T10:35:33.794Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "soc-sim-100-percent-true-positive-rate",
+      "image": "https://cdn-images.tryhackme.com/bc9704b0ecef287507f899fc9a6fc810.png",
+      "earned_at": "2026-05-01T10:35:33.830Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "defensive-toolsmith",
+      "image": "https://cdn-images.tryhackme.com/c79012bd7dc69f46f87ac3f2eaa6d9cf.png",
+      "earned_at": "2026-05-02T10:00:39.392Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "skilled-navigator",
+      "image": "https://cdn-images.tryhackme.com/e62b238d94a4d9bbf7f7535ede6f2730.png",
+      "earned_at": "2026-05-03T05:51:43.180Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "gold-league",
+      "image": "https://cdn-images.tryhackme.com/4434572d6757acb2cab06eb108a0184c.png",
+      "earned_at": "2026-05-03T23:50:17.362Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "phishing",
+      "image": "https://cdn-images.tryhackme.com/74d22f1b6984c57e04dc10fb94281692.png",
+      "earned_at": "2026-05-04T07:19:23.039Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "network-hog",
+      "image": "https://cdn-images.tryhackme.com/58fc4d1cfe7614f5ecd7bc627e6c0c91.png",
+      "earned_at": "2026-05-05T09:15:11.900Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "web-defender",
+      "image": "https://cdn-images.tryhackme.com/7398a1b26606f5ebff0a4d60a0d67754.png",
+      "earned_at": "2026-05-06T07:07:54.544Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "windows-guardian",
+      "image": "https://cdn-images.tryhackme.com/570947fc162bc7c2c5508d7a13db7a25.png",
+      "earned_at": "2026-05-07T08:28:44.670Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "linux-guardian",
+      "image": "https://cdn-images.tryhackme.com/6258eb04cd480a5e697023e9ed246991.png",
+      "earned_at": "2026-05-07T15:57:46.884Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "lookup-champion",
+      "image": "https://cdn-images.tryhackme.com/e10ed7133e77a975d7dc6c479015e461.png",
+      "earned_at": "2026-05-08T10:09:50.967Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "to-benign-or-not-benign",
+      "image": "https://cdn-images.tryhackme.com/af0241e365143228cc6f474ad4861421.png",
+      "earned_at": "2026-05-08T15:32:05.808Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "calculated-risk",
+      "image": "https://cdn-images.tryhackme.com/637042bb19818771234588ac8832bfbc.png",
+      "earned_at": "2026-05-10T15:06:00.005Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "session-held",
+      "image": "https://cdn-images.tryhackme.com/573d8124c140d1154bae3f8afeffad9a.png",
+      "earned_at": "2026-05-11T04:27:19.218Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "network-and-system-security",
+      "image": "https://cdn-images.tryhackme.com/7e6415cdea8ddf0c9ec1e308454b1321.png",
+      "earned_at": "2026-05-12T06:43:59.180Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "software-security",
+      "image": "https://cdn-images.tryhackme.com/be1ed13e373adb66262004056cf1257b.png",
+      "earned_at": "2026-05-12T07:23:32.810Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "security-in-the-pipeline",
+      "image": "https://cdn-images.tryhackme.com/3531856a2b33021d6d441fa075506cf3.png",
+      "earned_at": "2026-05-12T15:13:42.768Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "just-have-to-deal-with-it",
+      "image": "https://cdn-images.tryhackme.com/b7f8157302d725ae9db3733522709bf3.png",
+      "earned_at": "2026-05-13T09:05:59.602Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "advanced-splunk",
+      "image": "https://cdn-images.tryhackme.com/0d2ad863f32c06a36d073c8f0bed9d8d.png",
+      "earned_at": "2026-05-17T14:17:53.876Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "advanced-elk",
+      "image": "https://cdn-images.tryhackme.com/3bc04434195e0daa942880efdbeccfd5.png",
+      "earned_at": "2026-05-18T17:26:46.115Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "detection-engineering",
+      "image": "https://cdn-images.tryhackme.com/8564f0de66461fe0ec7de5ad1a345c47.png",
+      "earned_at": "2026-05-20T07:45:22.633Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "threat-hunter",
+      "image": "https://cdn-images.tryhackme.com/96171f8de8a098e8a33e5eee8f1c11d9.png",
+      "earned_at": "2026-05-24T06:05:49.201Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "threat-emulation",
+      "image": "https://cdn-images.tryhackme.com/47e69736dc502cfb3536113067cb3f9a.png",
+      "earned_at": "2026-05-27T06:24:19.793Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "best-eesponder",
+      "image": "https://cdn-images.tryhackme.com/081e8f50b090664a03b2e33ac044a606.png",
+      "earned_at": "2026-05-29T12:06:10.304Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "security-of-the-pipeline",
+      "image": "https://cdn-images.tryhackme.com/4c3b728eac6858ad6b802342a6a55b24.png",
+      "earned_at": "2026-06-21T07:49:01.622Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "90-day-streak",
+      "image": "https://cdn-images.tryhackme.com/96b6b85c960233454b3dcda9bf0bc949.png",
+      "earned_at": "2026-07-17T07:35:48.215Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "ai-path-completion",
+      "image": "https://cdn-images.tryhackme.com/401f4bb42c4ee80f259cb5b874c26b90.png",
+      "earned_at": "2026-07-17T09:12:54.292Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "platinum-league",
+      "image": "https://cdn-images.tryhackme.com/fe57cf25a504e69c8fcc42df18358dec.png",
+      "earned_at": "2026-07-20T08:18:44.772Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "noscoperce",
+      "image": "https://cdn-images.tryhackme.com/8b2f4424f67b4ef579245e1f28f2abb9.png",
+      "earned_at": "2026-07-22T12:57:29.605Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "sapphire-league",
+      "image": "https://cdn-images.tryhackme.com/9e4d2001ccbe33a686011a8059e0814f.png",
+      "earned_at": "2026-07-27T08:18:42.272Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "soc-level-up",
+      "image": "https://cdn-images.tryhackme.com/829be2299aae7ef155aedcd66f2f0a17.png",
+      "earned_at": "2026-08-14T14:14:51.188Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "domain-guardian",
+      "image": "https://cdn-images.tryhackme.com/cdaa393d8a897624bc3ee2d73f606c96.png",
+      "earned_at": "2026-08-17T06:10:18.554Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "m365-sentry",
+      "image": "https://cdn-images.tryhackme.com/b3eff6ad59b2a3c859392e43058144d1.png",
+      "earned_at": "2026-08-18T08:09:03.814Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "flow-hunter",
+      "image": "https://cdn-images.tryhackme.com/d77715fc9b95c9db42e9dd6af18ad1e5.png",
+      "earned_at": "2026-08-24T11:28:06.485Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "apt-x-hunter",
+      "image": "https://cdn-images.tryhackme.com/974a07e14105771ef7ffa4a566607642.png",
+      "earned_at": "2026-09-01T11:31:02.516Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "manic-monday",
+      "image": "https://cdn-images.tryhackme.com/aee98b4790ae235d8dd70312cf6b30ac.png",
+      "earned_at": "2026-09-05T10:53:48.417Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "friday-fixer",
+      "image": "https://cdn-images.tryhackme.com/636b9cfcc0f5d118abb17f1f23419e9d.png",
+      "earned_at": "2026-09-05T11:34:38.533Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "filesystem-sleuth",
+      "image": "https://cdn-images.tryhackme.com/24704d1ba7f13b4ec12737e774daf052.png",
+      "earned_at": "2026-09-14T05:10:17.205Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "authentication-striker",
+      "image": "https://cdn-images.tryhackme.com/7c6dd4db53211d8d021252adb796e347.png",
+      "earned_at": "2026-09-21T06:21:21.242Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "sql-slayer",
+      "image": "https://cdn-images.tryhackme.com/21b5283ffb44a6223b46131b3782bd64.png",
+      "earned_at": "2026-09-21T07:05:53.324Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    },
+    {
+      "name": "http-smuggler",
+      "image": "https://cdn-images.tryhackme.com/58c005cb225493bff0907c24e014ab6f.png",
+      "earned_at": "2026-09-21T07:44:12.507Z",
+      "profile_url": "https://tryhackme.com/p/Kshatantra"
+    }
+  ]
 }
