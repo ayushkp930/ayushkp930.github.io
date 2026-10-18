@@ -312,6 +312,97 @@
   border-color: rgba(183, 255, 74, .25);
 }
 
+
+/* Education and public learning profile cards */
+.edu-profile-heading {
+  margin-top: 38px;
+  margin-bottom: 18px;
+}
+.edu-profile-heading h3 {
+  margin: 8px 0;
+  font-size: clamp(22px, 3vw, 30px);
+  letter-spacing: -.035em;
+}
+.edu-profile-heading h3 span {
+  color: var(--green);
+}
+.edu-profile-heading > p {
+  color: var(--muted);
+  font-size: 12px;
+  margin: 0;
+}
+.edu-profile-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.edu-profile-card {
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid var(--line);
+  background: linear-gradient(145deg, rgba(13,22,17,.94), rgba(8,13,11,.96));
+}
+.edu-card-tag {
+  color: var(--green);
+  font: 9px/1.5 var(--mono);
+  letter-spacing: .1em;
+}
+.edu-card-icon {
+  margin: 17px 0 10px;
+  color: var(--cyan);
+  font-size: 24px;
+}
+.edu-profile-card h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.edu-card-org {
+  margin: 0;
+  color: #a9beb2;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.edu-status {
+  display: inline-block;
+  margin-top: 13px;
+  padding: 5px 8px;
+  border: 1px solid rgba(183,255,74,.25);
+  background: rgba(183,255,74,.05);
+  color: var(--green);
+  font: 9px var(--mono);
+  letter-spacing: .08em;
+}
+.edu-card-detail {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font: 10px/1.7 var(--mono);
+}
+.edu-profile-link {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--green);
+  font: 9px/1.7 var(--mono);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.edu-profile-link:hover {
+  color: var(--cyan);
+}
+@media (max-width: 900px) {
+  .edu-profile-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 650px) {
+  .edu-profile-grid {
+    grid-template-columns: 1fr;
+  }
+  .edu-profile-card {
+    padding: 17px;
+  }
+}
+
 </style>
 
 </head>
@@ -405,6 +496,44 @@
           <article class="cert-card"><div class="cert-brand">GOOGLE / COURSERA</div><div class="cert-icon">◎</div><h3>Google Cybersecurity Professional Certificate</h3><p class="cert-issuer">Google · Issued Dec 2025</p><p class="cert-detail">Credential ID: <code>RHPHKQE57YUS</code></p><a class="project-link" href="https://www.coursera.org/account/accomplishments/specialization/RHPHKQE57YUS" target="_blank" rel="noreferrer">View credential ↗</a></article>
           <article class="cert-card"><div class="cert-brand">IBM / COURSERA</div><div class="cert-icon">▧</div><h3>IBM Cybersecurity Analyst Professional Certificate</h3><p class="cert-issuer">IBM · Issued Aug 2025</p><p class="cert-detail">Credential ID: <code>9KIT9JF6IAGE</code></p><a class="project-link" href="https://www.coursera.org/account/accomplishments/specialization/9KIT9JF6IAGE" target="_blank" rel="noreferrer">View credential ↗</a></article>
         </div>
+
+        <div class="edu-profile-heading reveal">
+          <div class="eyebrow">EDUCATION // PUBLIC PROFILES</div>
+          <h3>Education &amp; <span>verified learning.</span></h3>
+          <p>Current degree progress and public learning credentials.</p>
+        </div>
+
+        <div id="edu-profile-panel" class="edu-profile-grid reveal">
+          <article class="edu-profile-card">
+            <div class="edu-card-tag">CURRENT EDUCATION</div>
+            <div class="edu-card-icon">▤</div>
+            <h3>BCA — Cybersecurity</h3>
+            <p class="edu-card-org">Manipal University Jaipur</p>
+            <span class="edu-status">PURSUING</span>
+            <p class="edu-card-detail">Undergraduate degree in progress.</p>
+          </article>
+
+          <article class="edu-profile-card">
+            <div class="edu-card-tag">PUBLIC BADGE WALLET</div>
+            <div class="edu-card-icon">◇</div>
+            <h3>Credly</h3>
+            <p class="edu-card-org">Professional badges &amp; credentials</p>
+            <a class="edu-profile-link"
+               href="https://credly.com/users/aayush-kumar-patel/badges/credly"
+               target="_blank" rel="noopener noreferrer">OPEN CREDLY PROFILE ↗</a>
+          </article>
+
+          <article class="edu-profile-card">
+            <div class="edu-card-tag">CLOUD LEARNING PROFILE</div>
+            <div class="edu-card-icon">☁</div>
+            <h3>Google Skills Boost</h3>
+            <p class="edu-card-org">Google Cloud learning achievements</p>
+            <a class="edu-profile-link"
+               href="https://skills.google/public_profiles/b40eb702-3bc5-4e26-ac59-a1333a5f0b97"
+               target="_blank" rel="noopener noreferrer">OPEN SKILLS PROFILE ↗</a>
+          </article>
+        </div>
+
       </div>
     </section>
 
