@@ -262,6 +262,56 @@
   }
 }
 
+
+/* Direct phone and WhatsApp contact */
+.contact-direct {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.contact-direct-label {
+  flex-basis: 100%;
+  color: #81978b;
+  font: 10px var(--mono);
+  letter-spacing: .12em;
+}
+
+.contact-direct a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  min-width: 155px;
+  padding: 11px 13px;
+  border: 1px solid rgba(73, 245, 255, .22);
+  background: rgba(73, 245, 255, .025);
+  text-decoration: none;
+  transition: border-color .2s, background .2s;
+}
+
+.contact-direct a span {
+  color: #8ba297;
+  font: 9px var(--mono);
+  letter-spacing: .1em;
+}
+
+.contact-direct a strong {
+  color: #e3f2e8;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.contact-direct a:hover {
+  border-color: var(--green);
+  background: rgba(183, 255, 74, .04);
+}
+
+.contact-direct .contact-direct-whatsapp {
+  border-color: rgba(183, 255, 74, .25);
+}
+
 </style>
 
 </head>
@@ -448,7 +498,22 @@
 
     <section class="section" id="contact">
       <div class="wrap">
-        <div class="contact-panel reveal"><div><div class="eyebrow">07 // ESTABLISH CONTACT</div><h2>Let’s make security<br>more evidence-driven.</h2><p>Open to entry-level cybersecurity opportunities and practical collaboration around SOC operations, threat detection, incident response and cloud security.</p><p class="contact-email">ayush0858e@gmail.com</p></div><div class="contact-actions"><a class="btn btn-primary" href="mailto:ayush0858e@gmail.com">Email me ↗</a><a class="btn btn-secondary" href="https://www.linkedin.com/in/ayush-kumar-patel-5a7985368/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a class="btn btn-secondary" href="https://github.com/ayushkp930" target="_blank" rel="noreferrer">GitHub ↗</a><a class="btn btn-secondary" href="https://tryhackme.com/p/Kshatantra" target="_blank" rel="noreferrer">TryHackMe ↗</a><a class="btn btn-secondary" href="https://profile.hackthebox.com/profile/019d526d-dbbd-71f6-91b5-494f42fe4cee" target="_blank" rel="noreferrer">Hack The Box ↗</a></div></div>
+        <div class="contact-panel reveal"><div><div class="eyebrow">07 // ESTABLISH CONTACT</div><h2>Let’s make security<br>more evidence-driven.</h2><p>Open to entry-level cybersecurity opportunities and practical collaboration around SOC operations, threat detection, incident response and cloud security.</p><p class="contact-email">ayush0858e@gmail.com</p>
+
+          <div class="contact-direct">
+            <div class="contact-direct-label">DIRECT CONTACT</div>
+            <a href="tel:+919250441750" class="contact-direct-phone">
+              <span>MOBILE / CALL</span>
+              <strong>+91 92504 41750</strong>
+            </a>
+            <a href="https://wa.me/919250441750"
+               class="contact-direct-whatsapp"
+               target="_blank" rel="noopener noreferrer">
+              <span>WHATSAPP</span>
+              <strong>Chat on WhatsApp ↗</strong>
+            </a>
+          </div>
+</div><div class="contact-actions"><a class="btn btn-primary" href="mailto:ayush0858e@gmail.com">Email me ↗</a><a class="btn btn-secondary" href="https://www.linkedin.com/in/ayush-kumar-patel-5a7985368/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a class="btn btn-secondary" href="https://github.com/ayushkp930" target="_blank" rel="noreferrer">GitHub ↗</a><a class="btn btn-secondary" href="https://tryhackme.com/p/Kshatantra" target="_blank" rel="noreferrer">TryHackMe ↗</a><a class="btn btn-secondary" href="https://profile.hackthebox.com/profile/019d526d-dbbd-71f6-91b5-494f42fe4cee" target="_blank" rel="noreferrer">Hack The Box ↗</a></div></div>
       </div>
     </section>
   </main>
