@@ -204,6 +204,64 @@
   }
 }
 
+
+/* THM six-card gallery — HTB-style */
+.thm-earned-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 8px !important;
+  margin-top: 12px !important;
+}
+
+.thm-earned-card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 7px !important;
+  min-width: 0 !important;
+  min-height: 122px;
+  padding: 10px 6px 9px !important;
+  border: 1px solid rgba(168, 255, 56, .15) !important;
+  background: rgba(7, 17, 14, .55) !important;
+  color: #c9d8d0 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  transition: border-color .18s ease, transform .18s ease;
+}
+
+.thm-earned-card:hover {
+  border-color: #a8ff38 !important;
+  transform: translateY(-2px);
+}
+
+.thm-earned-card img {
+  display: block !important;
+  width: 78px !important;
+  height: 78px !important;
+  max-width: 100% !important;
+  object-fit: contain !important;
+  margin: 0 auto !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.thm-earned-card span {
+  display: block;
+  font: 9px/1.45 monospace !important;
+  color: #a8b9b0 !important;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 420px) {
+  .thm-earned-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
 </style>
 
 </head>
@@ -307,11 +365,52 @@
           <article class="platform-card">
             <div class="platform-head"><div class="platform-icon">THM</div><div><h3>TryHackMe</h3><p>HANDS-ON SECURITY TRAINING</p></div><a class="platform-link" href="https://tryhackme.com/p/Kshatantra" target="_blank" rel="noreferrer">OPEN PROFILE ↗</a></div>
             <div class="thm-earned-wrap">
-              <div class="thm-earned-head"><span>// EARNED BADGES · IMAGE GALLERY</span><span class="thm-earned-status" id="thm-badge-status">SYNC REQUIRED</span></div>
-              <div class="thm-earned-grid" id="thm-earned-badges" aria-live="polite">
-                <div class="thm-earned-empty"><b>BADGE ART NOT SYNCED YET</b><span>Run the TryHackMe badge sync script from your own computer to load your real earned badge images here.</span><a href="https://tryhackme.com/p/Kshatantra" target="_blank" rel="noreferrer">VIEW OFFICIAL BADGES ↗</a></div>
+              <div class="thm-earned-head"><span>// EARNED BADGES · IMAGE GALLERY</span><span class="thm-earned-status" id="thm-badge-status">6 SELECTED BADGES</span></div>
+              <div class="thm-earned-grid" id="thm-earned-badges">
+                <a class="thm-earned-card"
+                   href="https://tryhackme.com/p/Kshatantra"
+                   target="_blank" rel="noreferrer">
+                  <img src="assets/thm-badge-icons/blue.png"
+                       alt="TryHackMe Blue badge" loading="lazy">
+                  <span>Blue</span>
+                </a>
+                <a class="thm-earned-card"
+                   href="https://tryhackme.com/p/Kshatantra"
+                   target="_blank" rel="noreferrer">
+                  <img src="assets/thm-badge-icons/first-step-into-soc.png"
+                       alt="TryHackMe First Step Into SOC badge" loading="lazy">
+                  <span>First Step Into SOC</span>
+                </a>
+                <a class="thm-earned-card"
+                   href="https://tryhackme.com/p/Kshatantra"
+                   target="_blank" rel="noreferrer">
+                  <img src="assets/thm-badge-icons/soc-apprentice.png"
+                       alt="TryHackMe SOC Apprentice badge" loading="lazy">
+                  <span>SOC Apprentice</span>
+                </a>
+                <a class="thm-earned-card"
+                   href="https://tryhackme.com/p/Kshatantra"
+                   target="_blank" rel="noreferrer">
+                  <img src="assets/thm-badge-icons/defensive-toolsmith.png"
+                       alt="TryHackMe Defensive Toolsmith badge" loading="lazy">
+                  <span>Defensive Toolsmith</span>
+                </a>
+                <a class="thm-earned-card"
+                   href="https://tryhackme.com/p/Kshatantra"
+                   target="_blank" rel="noreferrer">
+                  <img src="assets/thm-badge-icons/web-defender.png"
+                       alt="TryHackMe Web Defender badge" loading="lazy">
+                  <span>Web Defender</span>
+                </a>
+                <a class="thm-earned-card"
+                   href="https://tryhackme.com/p/Kshatantra"
+                   target="_blank" rel="noreferrer">
+                  <img src="assets/thm-badge-icons/windows-guardian.png"
+                       alt="TryHackMe Windows Guardian badge" loading="lazy">
+                  <span>Windows Guardian</span>
+                </a>
               </div>
-              <p class="data-note" id="thm-badge-note">Images are loaded from the public badge records captured by the local sync script. No badges are invented or hard-coded.</p>
+              <p class="data-note" id="thm-badge-note">Six selected badges from your earned TryHackMe records.</p>
             </div>
             <div class="thm-profile-highlights"><div class="micro-label">PROFILE HIGHLIGHTS · HISTORICAL RESUME SNAPSHOT</div><div class="badge-row"><span class="achievement"><span class="badge-glyph">◆</span> Security Analyst Level 1</span><span class="achievement"><span class="badge-glyph">★</span> Global Top 1%*</span><span class="achievement"><span class="badge-glyph">⌁</span> Sapphire League · 1st*</span><span class="achievement"><span class="badge-glyph">⌁</span> Platinum League · 1st*</span></div></div>
             <div class="sync-info"><span>PROFILE STATUS</span><b>Public profile linked</b></div>
@@ -396,111 +495,7 @@
     links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.textContent='MENU ☰'}));
 
 
-    // Feature ten previously synced TryHackMe badges.
-    // Uses local styled cards instead of blocked remote badge artwork.
-    (async function renderFeaturedTryHackMeBadges() {
-      const grid = document.getElementById('thm-earned-badges');
-      const state = document.getElementById('thm-badge-status');
-      const note = document.getElementById('thm-badge-note');
-      if (!grid || !state || !note) return;
-
-      const profile = 'https://tryhackme.com/p/Kshatantra';
-
-      const groups = [
-        {
-          title: 'BLUE TEAM',
-          subtitle: 'SOC / DETECTION / DEFENCE',
-          purple: false,
-          items: [
-            { key: 'blue', title: 'Blue', icon: '⬡' },
-            { key: 'first-step-into-soc', title: 'First Step Into SOC', icon: '⌘' },
-            { key: 'soc-apprentice', title: 'SOC Apprentice', icon: '◈' },
-            { key: 'soc-sim-first-scenario-completed', title: 'SOC Sim: First Scenario', icon: '▣' },
-            { key: 'defensive-toolsmith', title: 'Defensive Toolsmith', icon: '⚙' },
-            { key: 'detection-engineering', title: 'Detection Engineering', icon: '⌕' },
-            { key: 'threat-hunter', title: 'Threat Hunter', icon: '⌖' }
-          ]
-        },
-        {
-          title: 'PURPLE TEAM',
-          subtitle: 'ADVERSARY EMULATION / ATTACK & DEFENCE',
-          purple: true,
-          items: [
-            { key: 'adversarial-defence-ops', title: 'Adversarial Defence Ops', icon: '◇' },
-            { key: 'threat-emulation', title: 'Threat Emulation', icon: '⟁' },
-            { key: 'apt-x-hunter', title: 'APT-X Hunter', icon: '⌬' }
-          ]
-        }
-      ];
-
-      const normalize = value => String(value || '')
-        .toLowerCase().trim().replace(/[^a-z0-9]+/g, '-')
-        .replace(/^-|-$/g, '');
-
-      // Confirm featured badges against the local synced records where available.
-      let earnedKeys = null;
-      try {
-        const response = await fetch(
-          'assets/thm_badges.json?v=' + Date.now(),
-          { cache: 'no-store' }
-        );
-        if (response.ok) {
-          const payload = await response.json();
-          if (Array.isArray(payload.badges)) {
-            earnedKeys = new Set(payload.badges.map(b => normalize(b.name)));
-          }
-        }
-      } catch (_) {
-        // These selected names come from the previously synced badge records.
-      }
-
-      grid.replaceChildren();
-      let displayed = 0;
-
-      for (const group of groups) {
-        const items = group.items.filter(
-          item => !earnedKeys || earnedKeys.has(item.key)
-        );
-        if (!items.length) continue;
-
-        const heading = document.createElement('div');
-        heading.className = 'thm-featured-heading';
-        heading.textContent = group.title + '  //  ' + group.subtitle;
-        grid.append(heading);
-
-        for (const item of items) {
-          const card = document.createElement('a');
-          card.className = 'thm-featured-card' + (group.purple ? ' purple' : '');
-          card.href = profile;
-          card.target = '_blank';
-          card.rel = 'noreferrer';
-          card.title = item.title + ' — open TryHackMe profile';
-
-          const symbol = document.createElement('span');
-          symbol.className = 'thm-featured-symbol';
-          symbol.setAttribute('aria-hidden', 'true');
-          symbol.textContent = item.icon;
-
-          const copy = document.createElement('span');
-          copy.className = 'thm-featured-copy';
-
-          const name = document.createElement('strong');
-          name.textContent = item.title;
-
-          const team = document.createElement('small');
-          team.textContent = group.purple ? 'PURPLE TEAM' : 'BLUE TEAM';
-
-          copy.append(name, team);
-          card.append(symbol, copy);
-          grid.append(card);
-          displayed++;
-        }
-      }
-
-      state.textContent = displayed + ' FEATURED BADGES · BLUE / PURPLE TEAM';
-      note.textContent =
-        '10 selected highlights from your synced earned badges. Cards link to your official TryHackMe profile; original CDN artwork is unavailable.';
-    })();
+    // Featured TryHackMe badge cards use local HTML and image assets.
 
     document.getElementById('year').textContent=new Date().getFullYear();
   </script>
