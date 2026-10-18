@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#050807" />
+  <meta name="description" content="Ayush Kumar Patel — cybersecurity student focused on SOC operations, detection engineering, incident response and cloud security. Explore public projects, verified credentials and hands-on lab profiles." />
+  <meta name="author" content="Ayush Kumar Patel" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ayush Kumar Patel | Cybersecurity Portfolio" />
+  <meta property="og:description" content="SOC / Blue Team, Cloud Security, Detection Engineering and hands-on cybersecurity projects." />
+  <meta property="og:url" content="https://ayushkp930.github.io/" />
+  <meta name="color-scheme" content="dark" />
+  <title>Ayush Kumar Patel | AYUSH.SEC Cybersecurity Portfolio</title>
+  <style>
+    :root{--bg:#050807;--panel:#0a100e;--panel2:#0d1512;--line:rgba(154,255,95,.17);--green:#b7ff4a;--green2:#72ff8c;--cyan:#49f5ff;--text:#e7f3ec;--muted:#8ba198;--red:#ff5f78;--radius:18px;--mono:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;--sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    *{box-sizing:border-box} html{scroll-behavior:smooth;scroll-padding-top:90px} body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.6;overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-2;background:radial-gradient(ellipse at 12% 7%,rgba(46,255,139,.09),transparent 34%),radial-gradient(ellipse at 92% 27%,rgba(73,245,255,.07),transparent 32%),linear-gradient(rgba(120,255,180,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(120,255,180,.035) 1px,transparent 1px);background-size:auto,auto,42px 42px,42px 42px}
+    body:after{content:"";position:fixed;inset:0;z-index:8;pointer-events:none;opacity:.09;background:repeating-linear-gradient(to bottom,transparent 0,transparent 3px,rgba(0,0,0,.52) 4px,rgba(0,0,0,.52) 5px);mix-blend-mode:screen}
+    #matrix{position:fixed;inset:0;width:100%;height:100%;z-index:-1;opacity:.12;pointer-events:none}
+    a{color:inherit;text-decoration:none}button,a{ -webkit-tap-highlight-color:transparent}::selection{background:var(--green);color:#051006}
+    .wrap{width:min(1160px,calc(100% - 40px));margin-inline:auto}.mono{font-family:var(--mono)}.eyebrow{font:600 11px/1.5 var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--green)}
+    .topbar{position:sticky;top:0;z-index:20;background:rgba(5,8,7,.84);backdrop-filter:blur(18px);border-bottom:1px solid rgba(154,255,95,.13)}.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:11px;font:700 13px var(--mono);letter-spacing:.04em}.brand-mark{width:34px;height:34px;border:1px solid var(--green);display:grid;place-items:center;color:var(--green);box-shadow:0 0 20px rgba(183,255,74,.12);clip-path:polygon(0 0,72% 0,100% 28%,100% 100%,28% 100%,0 72%)}.brand em{font-style:normal;color:var(--green)}.nav-links{display:flex;align-items:center;gap:27px;font:500 12px var(--mono);color:#b1c3ba}.nav-links a{transition:color .2s}.nav-links a:hover{color:var(--green)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid var(--green);padding:11px 15px;font:700 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;transition:transform .2s,box-shadow .2s,background .2s}.nav-cta{color:var(--green)}.nav-cta:hover,.btn-primary:hover{box-shadow:0 0 24px rgba(183,255,74,.2);transform:translateY(-2px)}.menu-toggle{display:none;background:none;color:var(--green);border:1px solid var(--line);padding:7px 10px;font:12px var(--mono)}
+    .hero{min-height:calc(100vh - 72px);display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:54px;padding-top:76px;padding-bottom:86px;position:relative}.hero:after{content:"";position:absolute;width:310px;height:310px;border-radius:50%;right:10%;top:16%;background:rgba(0,255,140,.055);filter:blur(80px);z-index:-1}.availability{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(183,255,74,.23);background:rgba(183,255,74,.045);padding:7px 11px;border-radius:4px;font:10px var(--mono);letter-spacing:.08em;color:#c9e8d3}.pulse{width:7px;height:7px;border-radius:50%;background:var(--green2);box-shadow:0 0 11px var(--green2);animation:pulse 2s infinite}@keyframes pulse{50%{opacity:.35;box-shadow:0 0 2px var(--green2)}}.hero h1{font-size:clamp(42px,6.4vw,77px);line-height:.98;letter-spacing:-.065em;margin:27px 0 20px;font-weight:850}.hero h1 .name{display:block;color:var(--text)}.hero h1 .role{display:block;color:var(--green);text-shadow:0 0 30px rgba(183,255,74,.15)}.cursor{display:inline-block;width:9px;height:.86em;background:var(--cyan);margin-left:7px;vertical-align:-.04em;animation:blink 1s steps(2) infinite}@keyframes blink{50%{opacity:0}}.hero-copy{max-width:590px;color:#9db1a7;font-size:15px;line-height:1.85}.hero-copy strong{color:#d9e7de;font-weight:600}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn-primary{background:var(--green);color:#081006}.btn-secondary{border-color:rgba(73,245,255,.35);color:var(--cyan);background:rgba(73,245,255,.025)}.btn-secondary:hover{background:rgba(73,245,255,.07);transform:translateY(-2px)}.hero-meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:28px;color:#72877c;font:10px var(--mono);letter-spacing:.03em}.hero-meta span{display:flex;align-items:center;gap:7px}.tiny-dot{color:var(--cyan)}
+    .terminal-shell{position:relative;border:1px solid rgba(73,245,255,.25);background:linear-gradient(145deg,rgba(13,21,18,.97),rgba(5,9,7,.97));box-shadow:0 0 0 1px rgba(73,245,255,.025),0 22px 80px rgba(0,0,0,.4),0 0 50px rgba(73,245,255,.045);clip-path:polygon(0 0,calc(100% - 25px) 0,100% 25px,100% 100%,0 100%)}.terminal-shell:before{content:"";position:absolute;top:0;left:0;width:82px;height:2px;background:var(--green);box-shadow:0 0 20px var(--green)}.terminal-top{display:flex;align-items:center;justify-content:space-between;padding:13px 16px;border-bottom:1px solid rgba(73,245,255,.14);font:10px var(--mono);color:#91a89b;letter-spacing:.06em}.term-controls{display:flex;gap:5px}.term-controls i{display:block;width:6px;height:6px;border-radius:50%;background:#456255}.term-controls i:first-child{background:var(--red)}.term-controls i:nth-child(2){background:#f4cb54}.term-controls i:nth-child(3){background:var(--green2)}.live-label{color:var(--green2)}.terminal-body{padding:24px 24px 23px;font:12px/1.9 var(--mono);color:#a7bcb0;min-height:300px}.term-line{display:flex;gap:10px;flex-wrap:wrap}.prompt{color:var(--green)}.term-cyan{color:var(--cyan)}.term-white{color:#e6f5eb}.term-muted{color:#688176}.term-space{height:15px}.terminal-rule{height:1px;background:linear-gradient(90deg,var(--green),transparent);opacity:.35;margin:18px 0}.terminal-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;color:#719185;font-size:10px}.progress-line{height:4px;background:#1a2921;margin-top:7px;overflow:hidden}.progress-line span{display:block;height:100%;width:82%;background:linear-gradient(90deg,var(--green),var(--cyan));box-shadow:0 0 14px var(--green);animation:progress 2s ease-out}@keyframes progress{from{width:0}to{width:82%}}
+    .section{padding:82px 0;position:relative}.section-head{display:flex;justify-content:space-between;align-items:end;gap:22px;margin-bottom:30px}.section-title{font-size:clamp(27px,4vw,42px);letter-spacing:-.045em;line-height:1.12;margin:10px 0 0}.section-title span{color:var(--green)}.section-sub{max-width:450px;color:var(--muted);font-size:13px;margin:0}.section-index{font:11px var(--mono);color:#587064}.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat{position:relative;padding:22px 21px;background:linear-gradient(145deg,rgba(13,22,17,.96),rgba(8,13,11,.96));border:1px solid var(--line);min-height:138px;overflow:hidden;transition:border-color .2s,transform .2s}.stat:hover{border-color:rgba(183,255,74,.48);transform:translateY(-3px)}.stat:after{content:"";position:absolute;width:90px;height:90px;right:-28px;bottom:-42px;border-radius:50%;background:rgba(183,255,74,.08);filter:blur(22px)}.stat-label{display:flex;align-items:center;gap:8px;font:10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:#87a094}.stat-icon{color:var(--cyan);font-size:13px}.stat-value{font-size:34px;font-weight:800;letter-spacing:-.05em;line-height:1.3;margin-top:17px;color:#effff1}.stat-value b{font-size:15px;color:var(--green);letter-spacing:0}.stat-note{font:10px var(--mono);color:#668074;margin-top:5px}.data-note{margin-top:15px;color:#6f8278;font:10px/1.7 var(--mono)}
+    .badges-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.platform-card{border:1px solid var(--line);background:rgba(10,16,13,.8);padding:24px;position:relative;overflow:hidden}.platform-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:linear-gradient(transparent,var(--green),transparent);opacity:.75}.platform-head{display:flex;align-items:center;gap:13px}.platform-icon{width:43px;height:43px;display:grid;place-items:center;border:1px solid rgba(183,255,74,.25);background:rgba(183,255,74,.05);color:var(--green);font:700 14px var(--mono)}.platform-head h3{font-size:17px;margin:0}.platform-head p{font:10px var(--mono);color:#7d9588;margin:3px 0 0}.platform-link{margin-left:auto;color:var(--cyan);font:10px var(--mono);border-bottom:1px solid rgba(73,245,255,.35);padding-bottom:3px}.badge-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.achievement{display:flex;align-items:center;gap:7px;border:1px solid rgba(154,255,95,.16);background:rgba(183,255,74,.035);padding:8px 10px;font:10px var(--mono);color:#b9cec2}.badge-glyph{width:19px;height:19px;display:grid;place-items:center;background:rgba(183,255,74,.12);clip-path:polygon(50% 0,94% 20%,82% 78%,50% 100%,18% 78%,6% 20%);color:var(--green);font-size:10px}.htb-card .platform-icon{color:var(--green2);border-color:rgba(114,255,140,.27)}.sync-info{margin-top:18px;padding-top:14px;border-top:1px solid rgba(154,255,95,.1);display:flex;justify-content:space-between;gap:12px;color:#6f8579;font:10px var(--mono)}.sync-info b{font-weight:500;color:#d5e6da}.sync-tag{color:#dfc47e!important}
+    .projects{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.project-card{border:1px solid var(--line);background:linear-gradient(160deg,rgba(12,20,16,.95),rgba(6,10,8,.98));min-height:318px;padding:23px;display:flex;flex-direction:column;position:relative;overflow:hidden;transition:transform .25s,border-color .25s,box-shadow .25s}.project-card:hover{transform:translateY(-5px);border-color:rgba(73,245,255,.4);box-shadow:0 13px 40px rgba(0,0,0,.24)}.project-num{font:10px var(--mono);letter-spacing:.15em;color:var(--green)}.project-symbol{font-size:25px;color:var(--cyan);margin:25px 0 14px;text-shadow:0 0 20px rgba(73,245,255,.18)}.project-card h3{font-size:18px;line-height:1.25;margin:0 0 12px;letter-spacing:-.02em}.project-card p{font-size:12px;line-height:1.8;color:#8da298;margin:0}.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:17px}.chips span{padding:5px 7px;border:1px solid rgba(154,255,95,.12);color:#95b5a4;font:9px var(--mono)}.project-link{margin-top:auto;padding-top:24px;display:inline-flex;align-items:center;gap:8px;color:var(--green);font:10px var(--mono);text-transform:uppercase;letter-spacing:.06em}
+    .skills-layout{display:grid;grid-template-columns:.7fr 1.3fr;gap:38px;align-items:start}.skills-intro{color:#93a99d;font-size:13px;line-height:1.9}.skills-intro .callout{padding:14px;border-left:2px solid var(--cyan);background:rgba(73,245,255,.035);margin-top:20px;color:#9db7b0;font:11px/1.8 var(--mono)}.skill-groups{display:grid;grid-template-columns:1fr 1fr;gap:12px}.skill-group{padding:18px;border:1px solid var(--line);background:rgba(11,17,14,.76)}.skill-group h3{font:11px var(--mono);color:var(--green);margin:0 0 13px;text-transform:uppercase;letter-spacing:.06em}.skill-group p{display:flex;flex-wrap:wrap;gap:7px;margin:0}.skill-group span{font-size:11px;color:#c5d7cc;padding:5px 8px;border:1px solid rgba(154,255,95,.11);background:rgba(255,255,255,.015)}
+    .contact-panel{display:grid;grid-template-columns:1fr auto;align-items:center;gap:25px;border:1px solid rgba(73,245,255,.22);padding:35px;background:radial-gradient(ellipse at 100% 0,rgba(73,245,255,.08),transparent 40%),linear-gradient(145deg,rgba(12,21,17,.98),rgba(5,9,7,.98));position:relative;overflow:hidden}.contact-panel:after{content:"// SECURE CHANNEL OPEN";position:absolute;right:20px;top:15px;color:rgba(73,245,255,.25);font:9px var(--mono);letter-spacing:.12em}.contact-panel h2{font-size:clamp(25px,3.7vw,39px);letter-spacing:-.05em;line-height:1.1;margin:10px 0}.contact-panel p{color:#91a99c;font-size:13px;margin:0;max-width:550px}.contact-actions{display:flex;flex-direction:column;gap:9px;min-width:175px}.footer{padding:27px 0;border-top:1px solid rgba(154,255,95,.12);color:#60746a;font:10px var(--mono)}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:12px}.footer a{color:#9db3a5}.footer a:hover{color:var(--green)}
+    .reveal{opacity:1;transform:none}body.js-on .reveal{opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s ease}body.js-on .reveal.in{opacity:1;transform:none}.scanline{position:absolute;left:0;right:0;top:0;height:2px;background:linear-gradient(90deg,transparent,var(--cyan),transparent);opacity:.45;animation:scan 8s linear infinite;pointer-events:none}@keyframes scan{0%{top:0;opacity:0}10%{opacity:.4}90%{opacity:.2}100%{top:100%;opacity:0}}
+    @media(max-width:900px){.hero{grid-template-columns:1fr;gap:40px;min-height:auto;padding-top:66px}.hero-copy{max-width:690px}.terminal-shell{max-width:680px}.stats-grid{grid-template-columns:repeat(2,1fr)}.projects{grid-template-columns:1fr 1fr}.projects .project-card:last-child{grid-column:span 2}.skills-layout{grid-template-columns:1fr;gap:22px}}
+    @media(max-width:650px){.wrap{width:min(100% - 28px,1160px)}.nav{height:64px}.brand{font-size:11px}.nav-links{display:none;position:absolute;top:64px;left:0;right:0;padding:18px 22px 22px;background:rgba(5,8,7,.97);border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:17px}.nav-links.open{display:flex}.nav-cta{display:none}.menu-toggle{display:block}.hero{padding-top:49px;padding-bottom:57px;gap:33px}.hero h1{font-size:clamp(42px,13vw,65px)}.hero-copy{font-size:13px}.hero-meta{gap:12px}.terminal-body{padding:19px 15px;font-size:10px;min-height:0}.section{padding:61px 0}.section-head{display:block}.section-sub{margin-top:14px}.stats-grid{gap:8px}.stat{padding:16px;min-height:126px}.stat-value{font-size:29px}.badges-grid{grid-template-columns:1fr}.projects{grid-template-columns:1fr}.projects .project-card:last-child{grid-column:auto}.project-card{min-height:275px}.skill-groups{grid-template-columns:1fr}.contact-panel{grid-template-columns:1fr;padding:25px 20px}.contact-actions{flex-direction:row;flex-wrap:wrap;min-width:0}.footer-inner{align-items:flex-start;flex-direction:column}.section-index{display:block;margin-top:8px}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+  </style>
+
+  <style>
+    .project-footer{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-top:16px;flex-wrap:wrap}
+    .projects .project-card:last-child{grid-column:auto}
+    .experience-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .experience-card,.cert-card{border:1px solid var(--line);background:linear-gradient(155deg,rgba(12,20,16,.96),rgba(6,10,8,.98));padding:24px;position:relative;overflow:hidden}
+    .experience-card:before,.cert-card:before{content:"";position:absolute;left:0;top:0;width:70px;height:2px;background:linear-gradient(90deg,var(--green),transparent);box-shadow:0 0 14px rgba(183,255,74,.2)}
+    .experience-top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+    .experience-type,.experience-date,.cert-brand{font:10px var(--mono);letter-spacing:.1em;color:var(--cyan);text-transform:uppercase}
+    .experience-date{color:#789084}
+    .experience-card h3,.cert-card h3{margin:0;font-size:19px;line-height:1.35;letter-spacing:-.025em}
+    .experience-org{color:var(--green);font:12px var(--mono);margin:8px 0 14px}
+    .experience-card ul{padding-left:18px;margin:0 0 14px;color:#92a99b;font-size:12px;line-height:1.85}
+    .experience-card li{padding-left:3px;margin-bottom:7px}
+    .cert-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .cert-brand{color:var(--green)}.cert-icon{font-size:24px;color:var(--cyan);margin:19px 0 12px;text-shadow:0 0 20px rgba(73,245,255,.18)}
+    .cert-issuer{font-size:12px;color:#9ab1a3;margin:12px 0 7px}
+    .cert-detail{font:10px/1.7 var(--mono);color:#6f8579;margin:0 0 4px;overflow-wrap:anywhere}
+    .cert-detail code{color:#adc6b8}
+    .htb-badge-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:22px}
+    .htb-badge{display:flex;flex-direction:column;align-items:center;justify-content:start;text-align:center;padding:10px 7px;border:1px solid rgba(154,255,95,.12);background:rgba(255,255,255,.012);transition:transform .2s,border-color .2s,background .2s;min-width:0}
+    .htb-badge:hover{transform:translateY(-3px);border-color:rgba(73,245,255,.42);background:rgba(73,245,255,.035)}
+    .htb-badge img{width:min(100%,100px);height:88px;object-fit:contain;filter:drop-shadow(0 0 10px rgba(73,245,255,.09))}
+    .htb-badge span{font:9px/1.5 var(--mono);color:#b2c7bb;margin-top:6px}
+    .profile-evidence{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+    .profile-evidence>div{padding:16px 19px;background:rgba(10,16,13,.68);border:1px solid rgba(154,255,95,.13)}
+    .profile-evidence p{margin:9px 0 0;color:#98b0a3;font-size:12px;line-height:1.8}
+    .contact-email{font:12px var(--mono)!important;color:var(--cyan)!important;margin-top:12px!important}
+    @media(max-width:900px){.experience-grid{grid-template-columns:1fr}.cert-grid{grid-template-columns:1fr 1fr}.projects .project-card:last-child{grid-column:auto}}
+    @media(max-width:650px){.cert-grid,.profile-evidence{grid-template-columns:1fr}.htb-badge-gallery{grid-template-columns:repeat(3,minmax(0,1fr))}.project-footer{align-items:flex-start;flex-direction:column}.experience-card,.cert-card{padding:20px}.contact-email{overflow-wrap:anywhere}}
+
+    .thm-live-panel{border:1px solid rgba(73,245,255,.24);background:linear-gradient(145deg,rgba(11,19,15,.97),rgba(5,9,7,.98));padding:22px;position:relative;overflow:hidden;box-shadow:0 10px 40px rgba(0,0,0,.2)}
+    .thm-live-panel:before{content:"";position:absolute;left:0;top:0;width:92px;height:2px;background:linear-gradient(90deg,var(--green),var(--cyan));box-shadow:0 0 16px rgba(73,245,255,.25)}
+    .thm-live-top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:17px}
+    .thm-live-label{font:10px var(--mono);letter-spacing:.1em;color:var(--green);text-transform:uppercase}
+    .thm-live-state{display:inline-flex;align-items:center;gap:7px;font:9px var(--mono);color:#9fb8aa;border:1px solid rgba(183,255,74,.16);padding:6px 9px}
+    .thm-live-state:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--cyan);box-shadow:0 0 9px var(--cyan)}
+    .thm-live-image-wrap{border:1px solid rgba(154,255,95,.1);background:#070c09;padding:14px;display:flex;align-items:center;justify-content:center;min-height:160px}
+    .thm-live-image{display:block;width:100%;max-width:760px;height:auto;min-height:100px;object-fit:contain}
+    .thm-live-foot{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:13px;color:#71877b;font:10px/1.7 var(--mono)}
+    .thm-live-foot a{color:var(--cyan);border-bottom:1px solid rgba(73,245,255,.26)}
+    @media(max-width:650px){.thm-live-panel{padding:14px}.thm-live-image-wrap{padding:8px;min-height:120px}.thm-live-image{min-height:80px}}
+
+    .thm-earned-wrap{margin-top:19px;padding-top:15px;border-top:1px solid rgba(154,255,95,.12)}
+    .thm-earned-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;font:10px var(--mono);letter-spacing:.08em;color:var(--green);text-transform:uppercase}
+    .thm-earned-status{color:#d9bf7a;font-size:9px;letter-spacing:0}
+    .thm-earned-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:12px}
+    .thm-earned-card{display:flex;min-width:0;min-height:132px;flex-direction:column;align-items:center;justify-content:center;gap:9px;text-align:center;text-decoration:none;padding:12px 8px;border:1px solid rgba(154,255,95,.15);background:rgba(255,255,255,.012);transition:transform .2s,border-color .2s,background .2s}
+    .thm-earned-card:hover{transform:translateY(-3px);border-color:rgba(73,245,255,.48);background:rgba(73,245,255,.035)}
+    .thm-earned-card img{width:74px;height:74px;object-fit:contain;filter:drop-shadow(0 0 10px rgba(183,255,74,.10))}
+    .thm-earned-card strong{font:10px/1.5 var(--mono);font-weight:500;color:#c5d8cc;overflow-wrap:anywhere}
+    .thm-earned-card small{font:9px/1.5 var(--mono);color:#70877a}
+    .thm-earned-empty{grid-column:1/-1;min-height:126px;border:1px dashed rgba(154,255,95,.19);background:rgba(183,255,74,.018);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:9px;padding:20px;color:#8ea597;font:10px/1.7 var(--mono)}
+    .thm-earned-empty b{color:#d9bf7a;font-weight:500;letter-spacing:.08em}
+    .thm-earned-empty a{color:var(--cyan);border-bottom:1px solid rgba(73,245,255,.28);text-decoration:none;padding-bottom:2px}
+    .thm-profile-highlights{margin-top:14px}
+    .thm-profile-highlights .micro-label{font:9px var(--mono);color:#758b7e;text-transform:uppercase;letter-spacing:.08em;margin-bottom:9px}
+    @media(max-width:650px){.thm-earned-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.thm-earned-card{min-height:118px}.thm-earned-card img{width:68px;height:68px}}
+
+  </style>
+
+</head>
+<body>
+  <canvas id="matrix" aria-hidden="true"></canvas>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="#home" aria-label="Ayush portfolio home"><span class="brand-mark">A<span style="color:var(--cyan)">/</span></span><span>AYUSH<span style="color:var(--green)">.SEC</span><em>_</em></span></a>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#profile">/ profile</a><a href="#projects">/ projects</a><a href="#experience">/ experience</a><a href="#credentials">/ credentials</a><a href="#achievements">/ badges</a><a href="#skills">/ toolkit</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Initiate contact <span>↗</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">MENU ☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap hero" id="home">
+      <div class="hero-content">
+        <div class="availability"><span class="pulse"></span> PORTFOLIO ONLINE <span style="color:#537161">/</span> PUBLIC WORK INDEX</div>
+        <div class="eyebrow" style="margin-top:29px">BCA Cybersecurity // SOC & Cloud Defense</div>
+        <h1><span class="name">AYUSH KUMAR</span><span class="role">PATEL<span class="cursor"></span></span></h1>
+        <p class="hero-copy">I’m a <strong>cybersecurity student with internship and hands-on lab experience</strong>, focused on SOC operations, detection engineering, incident response and cloud security. I build practical tools, document investigation workflows and work to turn security signals into evidence-backed decisions.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#projects">Explore projects <span>↘</span></a><a class="btn btn-secondary" href="https://github.com/ayushkp930" target="_blank" rel="noreferrer">Open GitHub <span>↗</span></a><a class="btn btn-secondary" href="https://www.linkedin.com/in/ayush-kumar-patel-5a7985368/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a></div>
+        <div class="hero-meta"><span><span class="tiny-dot">◆</span> SOC / BLUE TEAM</span><span><span class="tiny-dot">◆</span> CLOUD SECURITY</span><span><span class="tiny-dot">◆</span> DETECTION & RESPONSE</span></div>
+      </div>
+      <div class="terminal-shell" aria-label="Decorative terminal-style introduction">
+        <div class="scanline"></div>
+        <div class="terminal-top"><div class="term-controls"><i></i><i></i><i></i></div><span>ayush@sec-lab: ~/profile</span><span class="live-label">● ACTIVE</span></div>
+        <div class="terminal-body" id="terminalBody">
+          <div class="term-line"><span class="prompt">ayush@sec-lab:~$</span><span>whoami --verbose</span></div>
+          <div class="term-line"><span class="term-muted">[identity]</span><span class="term-white">Ayush Kumar Patel</span></div>
+          <div class="term-line"><span class="term-muted">[focus]</span><span class="term-cyan">SOC / Blue Team / Cloud Security</span></div>
+          <div class="term-line"><span class="term-muted">[training]</span><span>TryHackMe / Hack The Box</span></div>
+          <div class="term-line"><span class="term-muted">[mission]</span><span>Detect. Investigate. Contain. Improve.</span></div>
+          <div class="term-space"></div>
+          <div class="term-line"><span class="prompt">ayush@sec-lab:~$</span><span>cat current_objectives.txt</span></div>
+          <div class="term-line"><span class="term-muted">01 //</span><span>Engineer and validate detections</span></div>
+          <div class="term-line"><span class="term-muted">02 //</span><span>Investigate with logs and evidence</span></div>
+          <div class="term-line"><span class="term-muted">03 //</span><span>Assess and harden cloud workloads</span></div>
+          <div class="terminal-rule"></div>
+          <div class="terminal-foot"><span>INTEGRITY: VERIFIED LOCALLY</span><span style="color:var(--green)">[ READY ]</span></div>
+          <div class="progress-line"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="profile">
+      <div class="wrap">
+        <div class="section-head reveal"><div><div class="eyebrow">01 // FIELD METRICS</div><h2 class="section-title">Progress, backed by <span>practice.</span></h2></div><p class="section-sub">Live TryHackMe public-profile badge. Its stats refresh when the daily sync succeeds from your own computer and pushes the new SVG to this repository.</p></div>
+        <div class="thm-live-panel reveal">
+          <div class="thm-live-top"><span class="thm-live-label">// TRYHACKME · LIVE PROFILE SNAPSHOT</span><span class="thm-live-state">PUBLIC PROFILE · NO THM LOGIN TOKEN STORED</span></div>
+          <div class="thm-live-image-wrap"><img class="thm-live-image" src="assets/thm_badge.svg" alt="TryHackMe profile stats badge: rank, completed rooms, badges, points, level and league" loading="eager"></div>
+          <div class="thm-live-foot"><span>Automated fields depend on the public profile endpoint and scheduled sync.</span><a href="https://tryhackme.com/p/Kshatantra" target="_blank" rel="noreferrer">VERIFY ON OFFICIAL PROFILE ↗</a></div>
+        </div>
+        <p class="data-note">// NOTE: The community-generated badge is not an official TryHackMe integration. It may stop updating if the public endpoint changes or blocks requests. Daily sync needs this computer to be on and online. Streak is not included in this badge; do not treat the old resume streak as live.</p>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="section-head reveal"><div><div class="eyebrow">02 // SELECTED OPERATIONS</div><h2 class="section-title">Projects from the <span>lab.</span></h2></div><p class="section-sub">Curated from my public GitHub repositories. Read the repository documentation for setup, evidence, screenshots and scope.</p></div>
+        <div class="projects reveal">
+          <article class="project-card"><div class="project-num">CASE FILE / 001 · CLOUD SECURITY</div><div class="project-symbol">⛨_</div><h3>CloudSentinel</h3><p>Local-first AWS posture assessment and CloudTrail threat analytics. Includes nine deterministic detection rules, explainable risk scoring, finding deduplication and an offline synthetic-data mode; an opt-in collector is read-only.</p><div class="chips"><span>Python</span><span>Streamlit</span><span>Boto3</span><span>SQLite</span><span>pytest</span></div><a class="project-link" href="https://github.com/ayushkp930/CloudSentinel" target="_blank" rel="noreferrer">Repository & evidence <span>↗</span></a></article>
+          <article class="project-card"><div class="project-num">CASE FILE / 002 · SOC / DFIR</div><div class="project-symbol">⌁_</div><h3>Advanced SOC & Threat Detection</h3><p>A collection of detection-engineering labs covering Sliver C2 telemetry with Zeek/Suricata, living-off-the-land activity with ELK/Sigma, memory forensics automation, DNS/ICMP exfiltration and canary-file response workflows.</p><div class="chips"><span>Zeek</span><span>Suricata</span><span>ELK / Sigma</span><span>Volatility</span><span>Splunk</span></div><a class="project-link" href="https://github.com/ayushkp930/Advanced-SOC-and-Threat-Detection" target="_blank" rel="noreferrer">Repository & evidence <span>↗</span></a></article>
+          <article class="project-card"><div class="project-num">CASE FILE / 003 · CLOUD IR</div><div class="project-symbol">▣</div><h3>GCP Breach Response & BCDR</h3><p>Scenario-based response to exposed cloud storage and a compromised VM: analyze Security Command Center findings, harden VPC firewall rules, enforce least-privilege IAM and plan business continuity and recovery.</p><div class="chips"><span>GCP SCC</span><span>IAM</span><span>Firewall</span><span>BCDR</span><span>PCI DSS context</span></div><a class="project-link" href="https://github.com/ayushkp930/Data-Breach-Response-with-BCDR-Strategy" target="_blank" rel="noreferrer">Repository & evidence <span>↗</span></a></article>
+          <article class="project-card"><div class="project-num">CASE FILE / 004 · THREAT INTEL</div><div class="project-symbol">⌬</div><h3>PhishShield Pro</h3><p>Terminal-based phishing and threat-analysis suite combining multi-source intelligence (VirusTotal / AbuseIPDB), asynchronous processing, AI-assisted consensus and offline data fallbacks, with structured risk assessments and PDF reporting.</p><div class="chips"><span>Python</span><span>Threat Intel</span><span>VirusTotal</span><span>AbuseIPDB</span><span>AI-assisted</span></div><a class="project-link" href="https://github.com/ayushkp930/PhishShield-Pro" target="_blank" rel="noreferrer">Repository & evidence <span>↗</span></a></article>
+          <article class="project-card"><div class="project-num">CASE FILE / 005 · APPSEC</div><div class="project-symbol">⌘</div><h3>Web Application Vulnerability Scanner</h3><p>A Flask-based scanner that crawls authorized target URLs, discovers input vectors and heuristically flags common web risks. The repository describes a dashboard, evidence-backed findings, report export and scan history.</p><div class="chips"><span>Python</span><span>Flask</span><span>OWASP</span><span>SQLi</span><span>XSS</span></div><a class="project-link" href="https://github.com/ayushkp930/Web-Application-Vulnerability-Scanner" target="_blank" rel="noreferrer">Repository & evidence <span>↗</span></a></article>
+          <article class="project-card"><div class="project-num">CASE FILE / 006 · CLOUD LABS</div><div class="project-symbol">◇</div><h3>Google Cloud Mastery Labs</h3><p>A multi-lab GCP learning repository covering cloud IAM, GKE deployment and hardening, logging and monitoring, web security, firewall/VPC configuration and protected cloud traffic.</p><div class="chips"><span>GCP</span><span>IAM</span><span>GKE</span><span>Cloud Logging</span><span>VPC</span></div><a class="project-link" href="https://github.com/ayushkp930/Google-Cloud-Mastery-Labs" target="_blank" rel="noreferrer">Repository & evidence <span>↗</span></a></article>
+        </div>
+        <div class="project-footer"><span class="data-note">// SCOPE NOTE: LABS AND SIMULATIONS ARE PRESENTED AS LABS; NO CLAIM OF PRODUCTION DEPLOYMENT.</span><a class="project-link" href="https://github.com/ayushkp930?tab=repositories" target="_blank" rel="noreferrer">View all public repositories ↗</a></div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="wrap">
+        <div class="section-head reveal"><div><div class="eyebrow">03 // FIELD EXPERIENCE</div><h2 class="section-title">Internship & <span>proof of work.</span></h2></div><p class="section-sub">Experience and responsibilities are summarized from the provided resume; supporting public artifacts are linked when available.</p></div>
+        <div class="experience-grid reveal">
+          <article class="experience-card"><div class="experience-top"><span class="experience-type">REMOTE INTERNSHIP</span><span class="experience-date">APR–MAY 2026 · RESUME</span></div><h3>Cybersecurity Analyst Intern</h3><p class="experience-org">Elevate Labs</p><ul><li>Assisted with triage of 50+ daily alerts in Splunk SIEM / EDR workflows, helping distinguish false positives from potential threats.</li><li>Used Wireshark for traffic analysis and Nmap for asset discovery / OS fingerprinting.</li><li>Built a Python/Bash log analyzer to flag SSH and web-server brute-force patterns; prepared incident reports and IOC records.</li></ul><a class="project-link" href="https://github.com/ayushkp930/Elevate-Labs-CyberSecurity-Internship" target="_blank" rel="noreferrer">Residency proof-of-work repository ↗</a></article>
+          <article class="experience-card"><div class="experience-top"><span class="experience-type">INTERNSHIP</span><span class="experience-date">APR–MAY 2026 · RESUME</span></div><h3>Cybersecurity Intern — Compliance & Incident Response</h3><p class="experience-org">NIELIT</p><ul><li>Reviewed audit evidence and collected digital evidence using Splunk, Wireshark and Linux command-line utilities.</li><li>Supported internal security assessments and vulnerability scans with Nessus, OpenVAS, Nmap, Wireshark and Kali Linux.</li><li>Worked on identifying security weaknesses and organizing findings for response and compliance workflows.</li></ul><span class="data-note">// No public project repository was supplied for this role.</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="credentials">
+      <div class="wrap">
+        <div class="section-head reveal"><div><div class="eyebrow">04 // CREDENTIAL VAULT</div><h2 class="section-title">Certifications, <span>not just claims.</span></h2></div><p class="section-sub">Credential buttons lead to the issuer or credential platform provided in the supplied profile details.</p></div>
+        <div class="cert-grid reveal">
+          <article class="cert-card"><div class="cert-brand">TRYHACKME / SAL1</div><div class="cert-icon">◆</div><h3>Security Analyst Level 1 (SAL1)</h3><p class="cert-issuer">TryHackMe · Issued Oct 2026 · Expires Oct 2029</p><p class="cert-detail">Credential ID: <code>6abf56e6f18cc0c644934a1f</code></p><a class="project-link" href="https://assets.tryhackme.com/certification-certificate/6abf56e6f18cc0c644934a1f.pdf" target="_blank" rel="noreferrer">View certificate PDF ↗</a></article>
+          <article class="cert-card"><div class="cert-brand">GOOGLE CLOUD</div><div class="cert-icon">☁</div><h3>Google Cloud Cybersecurity Professional Certificate</h3><p class="cert-issuer">Google Cloud · Issued Apr 2026</p><p class="cert-detail">Credential hosted on Credly.</p><a class="project-link" href="https://www.credly.com/badges/e54dc27d-ff25-40d7-9e77-0a88dc111528/linked_in_profile" target="_blank" rel="noreferrer">View credential ↗</a></article>
+          <article class="cert-card"><div class="cert-brand">GOOGLE / COURSERA</div><div class="cert-icon">◎</div><h3>Google Cybersecurity Professional Certificate</h3><p class="cert-issuer">Google · Issued Dec 2025</p><p class="cert-detail">Credential ID: <code>RHPHKQE57YUS</code></p><a class="project-link" href="https://www.coursera.org/account/accomplishments/specialization/RHPHKQE57YUS" target="_blank" rel="noreferrer">View credential ↗</a></article>
+          <article class="cert-card"><div class="cert-brand">IBM / COURSERA</div><div class="cert-icon">▧</div><h3>IBM Cybersecurity Analyst Professional Certificate</h3><p class="cert-issuer">IBM · Issued Aug 2025</p><p class="cert-detail">Credential ID: <code>9KIT9JF6IAGE</code></p><a class="project-link" href="https://www.coursera.org/account/accomplishments/specialization/9KIT9JF6IAGE" target="_blank" rel="noreferrer">View credential ↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="achievements">
+      <div class="wrap">
+        <div class="section-head reveal"><div><div class="eyebrow">05 // TRAINING NETWORKS</div><h2 class="section-title">Badges & <span>platforms.</span></h2></div><span class="section-index">PUBLIC PROFILES ↗</span></div>
+        <div class="badges-grid reveal">
+          <article class="platform-card">
+            <div class="platform-head"><div class="platform-icon">THM</div><div><h3>TryHackMe</h3><p>HANDS-ON SECURITY TRAINING</p></div><a class="platform-link" href="https://tryhackme.com/p/Kshatantra" target="_blank" rel="noreferrer">OPEN PROFILE ↗</a></div>
+            <div class="thm-earned-wrap">
+              <div class="thm-earned-head"><span>// EARNED BADGES · IMAGE GALLERY</span><span class="thm-earned-status" id="thm-badge-status">SYNC REQUIRED</span></div>
+              <div class="thm-earned-grid" id="thm-earned-badges" aria-live="polite">
+                <div class="thm-earned-empty"><b>BADGE ART NOT SYNCED YET</b><span>Run the TryHackMe badge sync script from your own computer to load your real earned badge images here.</span><a href="https://tryhackme.com/p/Kshatantra" target="_blank" rel="noreferrer">VIEW OFFICIAL BADGES ↗</a></div>
+              </div>
+              <p class="data-note" id="thm-badge-note">Images are loaded from the public badge records captured by the local sync script. No badges are invented or hard-coded.</p>
+            </div>
+            <div class="thm-profile-highlights"><div class="micro-label">PROFILE HIGHLIGHTS · HISTORICAL RESUME SNAPSHOT</div><div class="badge-row"><span class="achievement"><span class="badge-glyph">◆</span> Security Analyst Level 1</span><span class="achievement"><span class="badge-glyph">★</span> Global Top 1%*</span><span class="achievement"><span class="badge-glyph">⌁</span> Sapphire League · 1st*</span><span class="achievement"><span class="badge-glyph">⌁</span> Platinum League · 1st*</span></div></div>
+            <div class="sync-info"><span>PROFILE STATUS</span><b>Public profile linked</b></div>
+            <div class="sync-info" style="border-top:0;padding-top:0"><span>SYNC METHOD</span><b class="sync-tag">Local daily task · Git push</b></div>
+          </article>
+          <article class="platform-card htb-card">
+            <div class="platform-head"><div class="platform-icon">HTB</div><div><h3>Hack The Box</h3><p>BADGES VISIBLE ON PUBLIC PROFILE</p></div><a class="platform-link" href="https://profile.hackthebox.com/profile/019d526d-dbbd-71f6-91b5-494f42fe4cee" target="_blank" rel="noreferrer">OPEN PROFILE ↗</a></div>
+            <div class="htb-badge-gallery">
+              <a class="htb-badge" href="https://profile.hackthebox.com/profile/019d526d-dbbd-71f6-91b5-494f42fe4cee" target="_blank" rel="noreferrer"><img src="https://static.hackthebox.com/academy/badges/a45ac09a034016cd0e6f3a583030eade/logo.png" alt="Hack The Box Matrix Operative badge" loading="lazy"><span>Matrix Operative</span></a>
+              <a class="htb-badge" href="https://profile.hackthebox.com/profile/019d526d-dbbd-71f6-91b5-494f42fe4cee" target="_blank" rel="noreferrer"><img src="https://static.hackthebox.com/academy/badges/888852cf13d1a685f6da327ba4307f65/logo.png" alt="Hack The Box Packet Analyst badge" loading="lazy"><span>Packet Analyst</span></a>
+              <a class="htb-badge" href="https://profile.hackthebox.com/profile/019d526d-dbbd-71f6-91b5-494f42fe4cee" target="_blank" rel="noreferrer"><img src="https://static.hackthebox.com/academy/badges/6be5f8a1ae5859e2b24b139f8d56f712/logo.png" alt="Hack The Box Hook Breaker badge" loading="lazy"><span>Hook Breaker</span></a>
+              <a class="htb-badge" href="https://profile.hackthebox.com/profile/019d526d-dbbd-71f6-91b5-494f42fe4cee" target="_blank" rel="noreferrer"><img src="https://static.hackthebox.com/academy/badges/1fb350d019a44eb3d4a87a4cf83a0c85/logo.png" alt="Hack The Box Trust Forger badge" loading="lazy"><span>Trust Forger</span></a>
+              <a class="htb-badge" href="https://profile.hackthebox.com/profile/019d526d-dbbd-71f6-91b5-494f42fe4cee" target="_blank" rel="noreferrer"><img src="https://static.hackthebox.com/academy/badges/34501fc51a104adf5ccc915e28a06164/logo.png" alt="Hack The Box Growth Hacker - Inner Circle badge" loading="lazy"><span>Growth Hacker · Inner Circle</span></a>
+              <a class="htb-badge" href="https://profile.hackthebox.com/profile/019d526d-dbbd-71f6-91b5-494f42fe4cee" target="_blank" rel="noreferrer"><img src="https://static.hackthebox.com/academy/badges/your-white-belt-training-begins.png" alt="Hack The Box White Belt training badge" loading="lazy"><span>Your White Belt Training Begins</span></a>
+            </div>
+            <div class="sync-info"><span>PUBLIC PROFILE FOCUS</span><b>Vulnerability · IR · SecOps</b></div>
+          </article>
+        </div>
+        <div class="profile-evidence reveal"><div><div class="eyebrow">HTB PUBLIC PROFILE · TOOLSTACK</div><p>Splunk · Metasploit · Burp Suite · Nmap · Wireshark</p></div><div><div class="eyebrow">SKILLS LISTED</div><p>SQL injection · XSS · XPath injection · Regex injection · Brute force</p></div></div>
+        <p class="data-note">*TryHackMe rank and league achievements shown above are historical resume claims, not current live metrics. The live badge above covers public-profile stats only. HTB images are linked from public Hack The Box badge assets; HTB statistics are not auto-synced.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="wrap skills-layout">
+        <div class="reveal"><div class="eyebrow">06 // DEFENSIVE TOOLKIT</div><h2 class="section-title">Tools are useful.<br><span>Evidence is better.</span></h2><p class="skills-intro">A practical snapshot of tools and disciplines listed in my resume and public work. The project repositories show where I applied these tools; depth varies by tool and lab.</p><div class="callout">$ principle --show<br><span style="color:var(--green)">“</span> A finding matters when it can be reproduced, explained, and fixed. <span style="color:var(--green)">”</span></div></div>
+        <div class="skill-groups reveal">
+          <article class="skill-group"><h3>// SIEM & SOC</h3><p><span>Splunk / SPL</span><span>Wazuh</span><span>Microsoft Sentinel</span><span>Elastic / ELK</span><span>EDR alert triage</span><span>Incident reporting</span></p></article>
+          <article class="skill-group"><h3>// Network & DFIR</h3><p><span>Wireshark</span><span>Nmap</span><span>Volatility 3</span><span>Sysinternals</span><span>Packet analysis</span><span>IOC analysis</span></p></article>
+          <article class="skill-group"><h3>// Threat Detection</h3><p><span>Sigma rules</span><span>Threat hunting</span><span>MITRE ATT&CK</span><span>Phishing analysis</span><span>False-positive review</span><span>Vulnerability assessment</span></p></article>
+          <article class="skill-group"><h3>// Cloud & Engineering</h3><p><span>GCP Security Command Center</span><span>GCP IAM</span><span>AWS IAM</span><span>Python</span><span>Bash</span><span>SQL</span><span>Linux</span><span>Active Directory</span><span>PCI DSS context</span></p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap">
+        <div class="contact-panel reveal"><div><div class="eyebrow">07 // ESTABLISH CONTACT</div><h2>Let’s make security<br>more evidence-driven.</h2><p>Open to entry-level cybersecurity opportunities and practical collaboration around SOC operations, threat detection, incident response and cloud security.</p><p class="contact-email">ayush0858e@gmail.com</p></div><div class="contact-actions"><a class="btn btn-primary" href="mailto:ayush0858e@gmail.com">Email me ↗</a><a class="btn btn-secondary" href="https://www.linkedin.com/in/ayush-kumar-patel-5a7985368/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a class="btn btn-secondary" href="https://github.com/ayushkp930" target="_blank" rel="noreferrer">GitHub ↗</a><a class="btn btn-secondary" href="https://tryhackme.com/p/Kshatantra" target="_blank" rel="noreferrer">TryHackMe ↗</a><a class="btn btn-secondary" href="https://profile.hackthebox.com/profile/019d526d-dbbd-71f6-91b5-494f42fe4cee" target="_blank" rel="noreferrer">Hack The Box ↗</a></div></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><span>© <span id="year"></span> AYUSH.SEC // CYBERSECURITY PORTFOLIO.</span><span>STATIC SITE · NO API KEYS · <a href="#home">BACK TO TOP ↑</a></span></div></footer>
+
+  <script>
+    // Lightweight decorative matrix rain: no dependencies, pauses drawing on narrow/low-motion setups.
+    (() => {
+      const canvas = document.getElementById('matrix');
+      const ctx = canvas.getContext('2d');
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      let width = 0, height = 0, drops = [], raf = 0;
+      const chars = '01アイウエオ<>/{}[]$#';
+      function resize(){
+        const ratio = Math.min(window.devicePixelRatio || 1, 1.5);
+        width = window.innerWidth; height = window.innerHeight;
+        canvas.width = width * ratio; canvas.height = height * ratio;
+        canvas.style.width = width + 'px'; canvas.style.height = height + 'px';
+        ctx.setTransform(ratio,0,0,ratio,0,0); ctx.font = '12px monospace';
+        const cols = Math.ceil(width / 18); drops = Array.from({length:cols},()=>Math.random()*-height/12);
+      }
+      function draw(){
+        ctx.fillStyle = 'rgba(5,8,7,0.12)'; ctx.fillRect(0,0,width,height);
+        for(let i=0;i<drops.length;i++){
+          const char = chars[Math.floor(Math.random()*chars.length)];
+          ctx.fillStyle = Math.random() > .985 ? '#b7ff4a' : '#1b8558';
+          ctx.fillText(char,i*18,drops[i]*18);
+          if(drops[i]*18 > height && Math.random() > .975) drops[i]=0;
+          drops[i] += .24 + Math.random()*.22;
+        }
+        raf = requestAnimationFrame(draw);
+      }
+      resize();
+      if(!reduce && width > 560) draw();
+      window.addEventListener('resize',()=>{cancelAnimationFrame(raf);resize();if(!reduce && width > 560)draw();},{passive:true});
+    })();
+    // Scroll reveals are progressive enhancement; content remains visible without JS.
+    document.body.classList.add('js-on');
+    document.querySelectorAll('.reveal').forEach(el=>el.classList.add('ready'));
+    const observer = 'IntersectionObserver' in window ? new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('in');observer.unobserve(entry.target)}}),{threshold:.08}) : null;
+    document.querySelectorAll('.reveal').forEach(el=>{if(observer)observer.observe(el);else el.classList.add('in')});
+    const toggle=document.getElementById('menuToggle'),links=document.getElementById('navLinks');
+    toggle.addEventListener('click',()=>{const open=links.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'CLOSE ×':'MENU ☰'});
+    links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.textContent='MENU ☰'}));
+
+    // Render real earned badge records synced into the public assets JSON; never invent badges.
+    (async function loadTryHackMeEarnedBadges(){
+      const grid = document.getElementById('thm-earned-badges');
+      const state = document.getElementById('thm-badge-status');
+      const note = document.getElementById('thm-badge-note');
+      if (!grid || !state || !note) return;
+      try {
+        const response = await fetch('assets/thm_badges.json?v=' + Date.now(), {cache:'no-store'});
+        if (!response.ok) throw new Error('Badge data not available');
+        const payload = await response.json();
+        const badges = Array.isArray(payload.badges) ? payload.badges : [];
+        if (!payload.updated_at || !badges.length) {
+          state.textContent = 'SYNC REQUIRED';
+          note.textContent = 'The gallery is ready, but no real badge images have been synced yet. Run scripts/refresh-thm-badge.sh on your own computer, then push the generated assets to GitHub.';
+          return;
+        }
+        grid.replaceChildren();
+        badges.forEach(badge => {
+          if (!badge || typeof badge.name !== 'string' || typeof badge.image !== 'string' || !/^https:\/\//i.test(badge.image)) return;
+          const card = document.createElement('a');
+          card.className = 'thm-earned-card';
+          card.href = badge.profile_url || 'https://tryhackme.com/p/Kshatantra';
+          card.target = '_blank'; card.rel = 'noreferrer';
+          const image = document.createElement('img');
+          image.src = badge.image; image.alt = badge.name + ' — TryHackMe badge'; image.loading = 'lazy'; image.referrerPolicy = 'no-referrer';
+          image.addEventListener('error', () => { card.remove(); }, {once:true});
+          const title = document.createElement('strong'); title.textContent = badge.name;
+          card.append(image, title);
+          if (badge.earned_at) { const earned = document.createElement('small'); earned.textContent = 'EARNED · ' + badge.earned_at; card.append(earned); }
+          grid.append(card);
+        });
+        const visible = grid.querySelectorAll('.thm-earned-card').length;
+        state.textContent = visible + ' BADGE' + (visible === 1 ? '' : 'S') + ' SYNCED';
+        note.textContent = 'Source: public TryHackMe badge records. Last successful sync: ' + new Date(payload.updated_at).toLocaleString() + '. If badge artwork is no longer available from the source, it will be omitted.';
+        if (!visible) {
+          grid.replaceChildren();
+          const empty = document.createElement('div'); empty.className = 'thm-earned-empty';
+          const b = document.createElement('b'); b.textContent = 'BADGE ART UNAVAILABLE';
+          const span = document.createElement('span'); span.textContent = 'The last sync returned no displayable image URLs. Check the sync log or view the official TryHackMe profile.';
+          const link = document.createElement('a'); link.href = 'https://tryhackme.com/p/Kshatantra'; link.target = '_blank'; link.rel = 'noreferrer'; link.textContent = 'VIEW OFFICIAL BADGES ↗';
+          empty.append(b, span, link); grid.append(empty);
+        }
+      } catch (error) {
+        state.textContent = 'SYNC REQUIRED';
+        note.textContent = 'Could not load local badge data. Run the sync script from your own computer and commit assets/thm_badges.json.';
+      }
+    })();
+
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
